@@ -1,3 +1,10 @@
+'''Create a class Person with an attribute name and a method greet.
+
+Create another class Employee with an attribute job_title.
+
+Create a subclass Manager that inherits from both Person and Employee.
+
+Instantiate an object of Manager and call both greet and job_title.'''
 class Person:
     def __init__(self,name):
         self.name=name
